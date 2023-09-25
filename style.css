@@ -1,0 +1,91 @@
+* {
+  font-family: 'Maven Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background-color:#593493;
+
+
+
+}
+
+header {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+
+nav {
+  /* background-color: #EF7D19; */
+}
+
+ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+nav ul li {
+  padding-left: 16px;
+  list-style-type: none;
+}
+a{
+  color:#593493;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home_main_proz {
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+ 
+}
+
+.home_main_proz_titles {
+/align-self: flex-start;/
+/margin: 0 180px;*/
+margin-bottom: 20px;
+}
+
+.section_como_fazemos {
+ display: flex;
+ gap: 20px;
+ 
+}
+
+.card_como_fazemos{
+  background: url('img/bg_laranja.jpg');
+  width: 250px;
+  height: 186px;
+  border-radius: 8px;
+  padding: 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  box-shadow: 5px 5px 15px 5px #1c1b1b; 
+ 
+} 
+
+.title_card{
+  display: flex;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.font_paragrafh_card{
+  font-size: 12px;
+}
+
+.card_como_fazemos:hover {
+  scale: 1.04;
+  transition: ease-in-out 0.5s;
+}
+
